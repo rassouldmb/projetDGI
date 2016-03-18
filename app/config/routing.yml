@@ -1,3 +1,25 @@
-app:
-    resource: "@AppBundle/Controller/"
+dgigdp:
+    resource: "@DGIGDPBundle/Controller/"
     type:     annotation
+    prefix:   /
+
+dgigcc:
+    resource: "@DGIGCCBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+dgigrs:
+    resource: "@DGIGRSBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+dgigrp:
+    resource: "@DGIGRPBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+dgigrh:
+    resource: "@DGIGRHBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
